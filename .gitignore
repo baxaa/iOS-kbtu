@@ -1,0 +1,10 @@
+# Xcode
+build/
+*.xcuserdatad
+*.xcscmblueprint
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+*.xcworkspace
+
