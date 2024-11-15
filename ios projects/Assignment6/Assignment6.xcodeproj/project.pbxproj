@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B58AAEE82CCCC7E800E11523 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B58AAEE72CCCC7E800E11523 /* A.mp3 */; };
 		B5C7DBF92CCC015E0041F9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C7DBF82CCC015E0041F9D3 /* AppDelegate.swift */; };
 		B5C7DBFB2CCC015E0041F9D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C7DBFA2CCC015E0041F9D3 /* SceneDelegate.swift */; };
 		B5C7DBFD2CCC015E0041F9D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C7DBFC2CCC015E0041F9D3 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B58AAEE72CCCC7E800E11523 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
 		B5C7DBF52CCC015E0041F9D3 /* Assignment6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C7DBF82CCC015E0041F9D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C7DBFA2CCC015E0041F9D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		B5C7DBF72CCC015E0041F9D3 /* Assignment6 */ = {
 			isa = PBXGroup;
 			children = (
+				B58AAEE72CCCC7E800E11523 /* A.mp3 */,
 				B5C7DBF82CCC015E0041F9D3 /* AppDelegate.swift */,
 				B5C7DBFA2CCC015E0041F9D3 /* SceneDelegate.swift */,
 				B5C7DBFC2CCC015E0041F9D3 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58AAEE82CCCC7E800E11523 /* A.mp3 in Resources */,
 				B5C7DC052CCC015F0041F9D3 /* Assets.xcassets in Resources */,
 				B5C7DC082CCC015F0041F9D3 /* Base in Resources */,
 				B5C7DC002CCC015E0041F9D3 /* Base in Resources */,

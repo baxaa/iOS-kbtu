@@ -4,7 +4,7 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer?
-    let notes = ["C", "D", "E", "F", "G", "A", "B"]
+    let notes = ["A", "B", "C", "D", "E", "F", "G"]
     let colors: [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple, .systemPink]
     
     override func viewDidLoad() {
@@ -38,7 +38,6 @@ class ViewController: UIViewController {
         guard let note = sender.titleLabel?.text else { return }
         playSound(note: note)
         
-        // Visual feedback
         UIView.animate(withDuration: 0.1, animations: {
             sender.alpha = 0.5
         }) { _ in
@@ -49,7 +48,7 @@ class ViewController: UIViewController {
     }
     
     func playSound(note: String) {
-        guard let url = Bundle.main.url(forResource: note, withExtension: "mp3") else { print("Could not find file: \(note).mp3")
+        guard let url = Bundle.main.url(forResource: note, withExtension: "wav") else { print("Could not find file: \(note).wav")
             return }
         
         do {

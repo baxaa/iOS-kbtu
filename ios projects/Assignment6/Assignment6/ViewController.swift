@@ -66,7 +66,6 @@ class ViewController: UIViewController {
             self?.updateTimer()
         }
 
-        // Visual feedback
         UIView.animate(withDuration: 0.1, animations: {
             sender.alpha = 0.5
         }) { _ in
@@ -95,7 +94,7 @@ class ViewController: UIViewController {
     }
 
     func playAlarmSound() {
-        guard let url = Bundle.main.url(forResource: "alarm", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "A", withExtension: "mp3") else { return }
         do {
             player = try AVAudioPlayer(contentsOf: url)
             player?.play()
