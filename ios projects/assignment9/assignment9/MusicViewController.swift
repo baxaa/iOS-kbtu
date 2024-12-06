@@ -40,6 +40,8 @@ extension MusicViewController: UITableViewDataSource, UITableViewDelegate {
         if tableView == MusicTableView {
             let books = DataProvider.shared.getItems(for: .music)
             cell.TitleLbl.text = books[indexPath.row].title
+            cell.yearLBL.text = books[indexPath.row].releaseDate
+            cell.imgLbl.image = UIImage(named: books[indexPath.row].imageName)
         }
         return cell
     }

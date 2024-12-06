@@ -9,6 +9,8 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var yearLBL: UILabel!
+    @IBOutlet weak var imgLbl: UIImageView!
     @IBOutlet weak var TitleLbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()

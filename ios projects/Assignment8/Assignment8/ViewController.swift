@@ -23,8 +23,15 @@ class ViewController: UIViewController {
             Movie(title: "Pirates of the Caribbean", year: "2007", genre: "Fantasy", poster: "Pirates.jpg"),
             Movie(title: "Inception", year: "2010", genre: "Sci-Fi", poster: "Inception.jpg"),
             Movie(title: "Inception", year: "2010", genre: "Sci-Fi", poster: "Inception.jpg"),
-            Movie(title: "Inception", year: "2010", genre: "Sci-Fi", poster: "Inception.jpg")
-        ]
+            Movie(title: "Inception", year: "2010", genre: "Sci-Fi", poster: "Inception.jpg"),
+            Movie(title: "Avengers", year: "2012", genre: "Action", poster: "Avengers.jpg"),
+            Movie(title: "Pirates of the Caribbean", year: "2007", genre: "Fantasy", poster: "Pirates.jpg"),
+            Movie(title: "Inception", year: "2010", genre: "Sci-Fi", poster: "Inception.jpg"),
+            Movie(title: "Avengers", year: "2012", genre: "Action", poster: "Avengers.jpg"),
+            Movie(title: "Pirates of the Caribbean", year: "2007", genre: "Fantasy", poster: "Pirates.jpg"),
+            Movie(title: "Inception", year: "2010", genre: "Sci-Fi", poster: "Inception.jpg"),
+
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()

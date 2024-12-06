@@ -29,7 +29,8 @@ extension BookViewController: UITableViewDataSource, UITableViewDelegate {
             vc.titleTxt = books[indexPath.row].title
             vc.imgTxt = books[indexPath.row].imageName
             vc.descri = books[indexPath.row].description
-            navigationController?.pushViewController(vc, animated: true)
+//            navigationController?.pushViewController(vc, animated: true)
+            navigationController?.show(vc, sender: nil)
         }
         
     }
@@ -46,6 +47,8 @@ extension BookViewController: UITableViewDataSource, UITableViewDelegate {
         if tableView == BookTableView {
             let books = DataProvider.shared.getItems(for: .books)
             cell.TitleLbl.text = books[indexPath.row].title
+            cell.yearLBL.text = books[indexPath.row].releaseDate
+            cell.imgLbl.image = UIImage(named: books[indexPath.row].imageName)
         }
         return cell
         

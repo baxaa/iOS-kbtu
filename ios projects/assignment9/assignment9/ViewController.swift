@@ -51,6 +51,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)as! CustomTableViewCell
         let books = DataProvider.shared.getItems(for: .movies)
         cell.TitleLbl.text = books[indexPath.row].title
+        cell.yearLBL.text = books[indexPath.row].releaseDate
+        cell.imgLbl.image = UIImage(named: books[indexPath.row].imageName)
     
         return cell
     }
