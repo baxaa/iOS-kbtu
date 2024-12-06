@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Assignment11
+//  RandomHero
 //
 //  Created by Baqbergen Onalbekov on 06.12.2024.
 //
@@ -27,7 +27,7 @@ struct Hero: Decodable{
     
     struct Appearance: Decodable {
         let gender: String
-        let race: String?
+        let race: String
     }
     
     struct Biography: Decodable {
@@ -41,14 +41,13 @@ struct Hero: Decodable{
     }
 }
 
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var power: UILabel!
     @IBOutlet weak var intelligence: UILabel!
     @IBOutlet weak var strength: UILabel!
-    @IBOutlet weak var power: UILabel!
     @IBOutlet weak var speed: UILabel!
     @IBOutlet weak var combat: UILabel!
     @IBOutlet weak var durability: UILabel!
@@ -62,11 +61,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func rollerButton(_ sender: Any) {
+    @IBAction func rollButton(_ sender: Any) {
         let randomId = Int.random(in: 1...563)
         fetchHero(by: randomId)
     }
     private func fetchHero(by id: Int) {
+        
         let urlString = "https://akabab.github.io/superhero-api/api/id/\(id).json"
         
         AF.request(urlString).responseDecodable(of: Hero.self) { response in
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
     }
     
     private func dataHandler(with hero: Hero) {
-        print("hero: ")     
+        print("hero: ")
         DispatchQueue.main.async {
             self.name.text = hero.name
             self.intelligence.text = "Intelligence: \(hero.powerstats.intelligence)"

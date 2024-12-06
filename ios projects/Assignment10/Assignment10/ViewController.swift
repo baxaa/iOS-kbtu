@@ -88,12 +88,12 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 self.name.text = hero.name
                 self.image.image = heroImage
-                self.intelligence.text = "\(hero.powerstats.intelligence)"
-                self.strength.text = "\(hero.powerstats.strength)"
-                self.power.text = "\(hero.powerstats.power)"
-                self.speed.text = "\(hero.powerstats.speed)"
-                self.combat.text = "\(hero.powerstats.combat)"
-                self.durability.text = "\(hero.powerstats.durability)"
+                self.intelligence.text = "Intelligence: \(hero.powerstats.intelligence)"
+                self.strength.text = "Strength:\(hero.powerstats.strength)"
+                self.power.text = "Power: \(hero.powerstats.power)"
+                self.speed.text = "Speed: \(hero.powerstats.speed)"
+                self.combat.text = "Combat: \(hero.powerstats.combat)"
+                self.durability.text = "Durability: \(hero.powerstats.durability)"
                 self.gender.text = hero.appearance.gender
                 self.race.text = hero.appearance.race
                 self.fullName.text = hero.biography.fullName

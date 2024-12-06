@@ -6,134 +6,132 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5DE73592D02D2AA00C8FD9C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B5DE73582D02D2AA00C8FD9C /* Alamofire */; };
+		B5DE735E2D02D32400C8FD9C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B5DE735D2D02D32400C8FD9C /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		B55B53D22D02B5080090CF6F /* Assignment11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DE733F2D02D0C500C8FD9C /* RandomHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B55B53E42D02B50A0090CF6F /* Exceptions for "Assignment11" folder in "Assignment11" target */ = {
+		B5DE73512D02D0C600C8FD9C /* Exceptions for "RandomHero" folder in "RandomHero" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = B55B53D12D02B5080090CF6F /* Assignment11 */;
+			target = B5DE733E2D02D0C500C8FD9C /* RandomHero */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B55B53D42D02B5080090CF6F /* Assignment11 */ = {
+		B5DE73412D02D0C500C8FD9C /* RandomHero */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B55B53E42D02B50A0090CF6F /* Exceptions for "Assignment11" folder in "Assignment11" target */,
+				B5DE73512D02D0C600C8FD9C /* Exceptions for "RandomHero" folder in "RandomHero" target */,
 			);
-			path = Assignment11;
+			path = RandomHero;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5DE73332D02CF4200C8FD9C /* Frameworks */ = {
+		B5DE733C2D02D0C500C8FD9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DE735E2D02D32400C8FD9C /* Kingfisher in Frameworks */,
+				B5DE73592D02D2AA00C8FD9C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B55B53C92D02B5080090CF6F = {
+		B5DE73362D02D0C400C8FD9C = {
 			isa = PBXGroup;
 			children = (
-				B55B53D42D02B5080090CF6F /* Assignment11 */,
-				B5DE73352D02CF8300C8FD9C /* Frameworks */,
-				B55B53D32D02B5080090CF6F /* Products */,
+				B5DE73412D02D0C500C8FD9C /* RandomHero */,
+				B5DE73402D02D0C500C8FD9C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B55B53D32D02B5080090CF6F /* Products */ = {
+		B5DE73402D02D0C500C8FD9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B55B53D22D02B5080090CF6F /* Assignment11.app */,
+				B5DE733F2D02D0C500C8FD9C /* RandomHero.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B5DE73352D02CF8300C8FD9C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B55B53D12D02B5080090CF6F /* Assignment11 */ = {
+		B5DE733E2D02D0C500C8FD9C /* RandomHero */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B55B53E52D02B50A0090CF6F /* Build configuration list for PBXNativeTarget "Assignment11" */;
+			buildConfigurationList = B5DE73522D02D0C600C8FD9C /* Build configuration list for PBXNativeTarget "RandomHero" */;
 			buildPhases = (
-				B55B53CE2D02B5080090CF6F /* Sources */,
-				B55B53D02D02B5080090CF6F /* Resources */,
-				B5DE73332D02CF4200C8FD9C /* Frameworks */,
+				B5DE733B2D02D0C500C8FD9C /* Sources */,
+				B5DE733C2D02D0C500C8FD9C /* Frameworks */,
+				B5DE733D2D02D0C500C8FD9C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B55B53D42D02B5080090CF6F /* Assignment11 */,
+				B5DE73412D02D0C500C8FD9C /* RandomHero */,
 			);
-			name = Assignment11;
+			name = RandomHero;
 			packageProductDependencies = (
-				B55B53EB2D02BEEE0090CF6F /* Alamofire */,
-				B55B53ED2D02BEEE0090CF6F /* AlamofireDynamic */,
-				B55B53F02D02BF970090CF6F /* Kingfisher */,
+				B5DE73582D02D2AA00C8FD9C /* Alamofire */,
+				B5DE735D2D02D32400C8FD9C /* Kingfisher */,
 			);
-			productName = Assignment11;
-			productReference = B55B53D22D02B5080090CF6F /* Assignment11.app */;
+			productName = RandomHero;
+			productReference = B5DE733F2D02D0C500C8FD9C /* RandomHero.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B55B53CA2D02B5080090CF6F /* Project object */ = {
+		B5DE73372D02D0C400C8FD9C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					B55B53D12D02B5080090CF6F = {
+					B5DE733E2D02D0C500C8FD9C = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = B55B53CD2D02B5080090CF6F /* Build configuration list for PBXProject "Assignment11" */;
+			buildConfigurationList = B5DE733A2D02D0C400C8FD9C /* Build configuration list for PBXProject "RandomHero" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B55B53C92D02B5080090CF6F;
+			mainGroup = B5DE73362D02D0C400C8FD9C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				B55B53EA2D02BEEE0090CF6F /* XCRemoteSwiftPackageReference "Alamofire" */,
-				B55B53EF2D02BF970090CF6F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B5DE73572D02D2AA00C8FD9C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B5DE735C2D02D32400C8FD9C /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B55B53D32D02B5080090CF6F /* Products */;
+			productRefGroup = B5DE73402D02D0C500C8FD9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B55B53D12D02B5080090CF6F /* Assignment11 */,
+				B5DE733E2D02D0C500C8FD9C /* RandomHero */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B55B53D02D02B5080090CF6F /* Resources */ = {
+		B5DE733D2D02D0C500C8FD9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,7 +141,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B55B53CE2D02B5080090CF6F /* Sources */ = {
+		B5DE733B2D02D0C500C8FD9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -153,7 +151,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B55B53E62D02B50A0090CF6F /* Debug */ = {
+		B5DE73532D02D0C600C8FD9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -162,7 +160,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96UGA5FRJL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment11/Info.plist;
+				INFOPLIST_FILE = RandomHero/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -173,7 +171,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.baxa.Assignment11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baxa.RandomHero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -181,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		B55B53E72D02B50A0090CF6F /* Release */ = {
+		B5DE73542D02D0C600C8FD9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -190,7 +188,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96UGA5FRJL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment11/Info.plist;
+				INFOPLIST_FILE = RandomHero/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -201,7 +199,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.baxa.Assignment11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baxa.RandomHero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -209,7 +207,7 @@
 			};
 			name = Release;
 		};
-		B55B53E82D02B50A0090CF6F /* Debug */ = {
+		B5DE73552D02D0C600C8FD9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		B55B53E92D02B50A0090CF6F /* Release */ = {
+		B5DE73562D02D0C600C8FD9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,20 +329,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B55B53CD2D02B5080090CF6F /* Build configuration list for PBXProject "Assignment11" */ = {
+		B5DE733A2D02D0C400C8FD9C /* Build configuration list for PBXProject "RandomHero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B55B53E82D02B50A0090CF6F /* Debug */,
-				B55B53E92D02B50A0090CF6F /* Release */,
+				B5DE73552D02D0C600C8FD9C /* Debug */,
+				B5DE73562D02D0C600C8FD9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B55B53E52D02B50A0090CF6F /* Build configuration list for PBXNativeTarget "Assignment11" */ = {
+		B5DE73522D02D0C600C8FD9C /* Build configuration list for PBXNativeTarget "RandomHero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B55B53E62D02B50A0090CF6F /* Debug */,
-				B55B53E72D02B50A0090CF6F /* Release */,
+				B5DE73532D02D0C600C8FD9C /* Debug */,
+				B5DE73542D02D0C600C8FD9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -352,7 +350,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B55B53EA2D02BEEE0090CF6F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		B5DE73572D02D2AA00C8FD9C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
@@ -360,7 +358,7 @@
 				minimumVersion = 5.10.2;
 			};
 		};
-		B55B53EF2D02BF970090CF6F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		B5DE735C2D02D32400C8FD9C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
 			requirement = {
@@ -371,22 +369,17 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B55B53EB2D02BEEE0090CF6F /* Alamofire */ = {
+		B5DE73582D02D2AA00C8FD9C /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B55B53EA2D02BEEE0090CF6F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = B5DE73572D02D2AA00C8FD9C /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		B55B53ED2D02BEEE0090CF6F /* AlamofireDynamic */ = {
+		B5DE735D2D02D32400C8FD9C /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B55B53EA2D02BEEE0090CF6F /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
-		};
-		B55B53F02D02BF970090CF6F /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B55B53EF2D02BF970090CF6F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = B5DE735C2D02D32400C8FD9C /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = B55B53CA2D02B5080090CF6F /* Project object */;
+	rootObject = B5DE73372D02D0C400C8FD9C /* Project object */;
 }
